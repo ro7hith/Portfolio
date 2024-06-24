@@ -4,7 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,19 +56,21 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm [Your Name], a web developer and UI/UX designer.</p>
-    </section>
+    <div id="home" class="page active">
+        <section>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Please Wait, Something beautiful is coming up!!!</p>
+        </section>
+    </div>
 
     <footer>
         <p>&copy; 2024 [Your Name]. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
